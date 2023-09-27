@@ -19,7 +19,6 @@ public class Alumno {
     }
 
     public Alumno(int dni2, String nombreAlumno, String apellido2) {
-		// TODO Auto-generated constructor stub
 	}
 
 	public String getNombre() {

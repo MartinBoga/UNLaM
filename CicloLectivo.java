@@ -2,18 +2,16 @@ package proyecto1;
 import java.util.Date;
 
 public class CicloLectivo {
-    private int numeroCiclo;
     private Date fechaInicio;
     private Date fechaFinalizacion;
     private Date fechaInscripcionInicio;
-    private Date fechaInscripcionFinalizacion;
+    private Date fechaInscripcionFin;
 
-public CicloLectivo(int numeroCiclo, Date fechaInicio, Date fechaFinalizacion, Date fechaInscripcionInicio, Date fechaInscripcionFinalizacion) {
-        this.numeroCiclo = numeroCiclo;
+    public CicloLectivo(Date fechaInicio, Date fechaFinalizacion, Date fechaInscripcionInicio, Date fechaInscripcionFin) {
         this.fechaInicio = fechaInicio;
         this.fechaFinalizacion = fechaFinalizacion;
         this.fechaInscripcionInicio = fechaInscripcionInicio;
-        this.fechaInscripcionFinalizacion = fechaInscripcionFinalizacion;
+        this.fechaInscripcionFin = fechaInscripcionFin;
     }
 
 public int getNumeroCiclo() {

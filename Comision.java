@@ -7,6 +7,7 @@ public class Comision {
     private Materia materia;
     private CicloLectivo cicloLectivo;
     private Profesor profesor;
+    private String turno;
     private List<Alumno> alumnos;
     private List<RegistroExamen> registrosExamen;
 
@@ -17,6 +18,7 @@ public Comision(int numeroComision, Materia materia, CicloLectivo cicloLectivo, 
         this.profesor = profesor;
         this.alumnos = new ArrayList<>();
         this.registrosExamen = new ArrayList<>();
+        this.turno = turno;
     }
 
 public int getNumeroComision() {
